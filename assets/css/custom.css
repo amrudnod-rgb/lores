@@ -1,0 +1,45 @@
+/*
+	M2Board Tanıtım İndexi
+*/
+body:after {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/m2board-bg.jpg');
+    background-size: cover;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: -1;
+}
+.content-wrap {
+    background: rgba(17,3,17,.4);
+}
+
+/* Boxed container */
+.content-wrap {
+    max-width: 1240px;
+}
+
+
+img.board_logo {
+    filter: drop-shadow(0px 0px 20px black);
+}
+
+.youplay-banner {
+    background: #000000;
+}
+
+.angled-img .img>img {
+    max-height: 160px;
+}
+
+li.list-group-item {
+    background: #2a1b27;
+    border: none;
+    margin: 6px;
+    border-radius: 0px !important;
+    box-shadow: 0px 0px 3px black;
+}
